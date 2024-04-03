@@ -27,7 +27,7 @@ DEBUG = True
 AZURE_STORAGE_KEY = 'storage_key'
 AZURE_CONTAINER_NAME = 'container_name'
 AZURE_BLOB_NAME = 'blob_name'
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
