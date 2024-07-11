@@ -22,7 +22,7 @@ def generate_sas_token(request):
         blob_name=blob_name,
         account_key=blob_service_client.credential.account_key,
         permission=BlobSasPermissions(read=True),
-        expiry=datetime.utcnow() + timedelta(hours=8),  # Expires in 8 hours
+        expiry=datetime.utcnow() + timedelta(hours=2),  # Expires in 2 hours
         protocol="https"
     )
 
